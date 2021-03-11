@@ -18,8 +18,28 @@ body{
 
 .container{
     background-color: rgba(0,0,0, 0.4);
-    padding: 20px 40px;
+    padding: 20px 50px;
     border-radius: 5px;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: turquoise;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.text{
+    margin-top: 30px;
 }
 .container h1{
     text-align: center;
@@ -29,5 +49,27 @@ body{
 .container a{
     text-decoration: none;
     color: lightblue;
+}
+
+
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.form-control input:focus, .form-control input:valid{
+    outline: 0;
 }
  
